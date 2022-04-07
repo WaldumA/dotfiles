@@ -1,0 +1,5 @@
+-std=c++14
+-I
+/path/to/folders/to/include
+-I
+/path/to/folders/to/include
