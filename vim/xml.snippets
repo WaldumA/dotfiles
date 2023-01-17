@@ -1,0 +1,9 @@
+# Syntax for .sdf files
+snippet bn "Finish a bracket pair <></>"
+<$1> $0 </$1>
+endsnippet
+
+snippet mesh "Include a mesh to robot"
+<geometry><uri> $1 </uri></geometry>
+$0
+endsnippet
